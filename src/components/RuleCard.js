@@ -1,6 +1,7 @@
 import React from 'react'
 import RulesPoints from './RulesPoints'
 import Rules_image from '../images/Rules_image.svg'
+import BrushIcon from '@mui/icons-material/Brush'
 // import '../styles/global.css'
 
 function RuleCard({ title, description }) {
@@ -15,7 +16,7 @@ function RuleCard({ title, description }) {
         </div>
         <div className="box2 border-2 border-black rounded-lg w-80 absolute left-3/8 right-1/8 shadow-3xl">
           <div className="box2__top bg-black text-white">
-            this is header
+            this is header <BrushIcon/>
           </div>
           <div className="box2__bottom border-black bg-white rounded-lg">
             <img src={Rules_image.src} alt="" className=' border-2rounded' />
